@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', function() {
             isValid = false;
             messages.push('Username must be at least 3 characters long');
         } 
-        // REMOVED: The else block with usernameError (it causes a crash)
 
         // Email Validation
         if (!email.includes('@') || !email.includes('.')) {
